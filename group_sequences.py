@@ -14,7 +14,7 @@ __usage__ = """
 					"""
 
 
-import os, sys, subprocess, glob, re
+import os, sys, glob, re
 
 # --- end of imports --- #
 
