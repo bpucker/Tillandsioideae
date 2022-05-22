@@ -11,3 +11,6 @@ A previously developed wrapper script ([Pucker and Brockington, 2018](https://bm
 
 ## 4) Selection of single copy genes ##
 Only the peptide sequences of single copy genes were analyzed for the tree construction. The clustered sequences of initial Trinity assemblies were used in this step to avoid the presence of multiple isoforms per gene. BUSCO genes are considered for this analysis if they were detected in at least 100 species.
+
+## 5) Anaylsis of gene conservation ##
+OrthoFinder2 was run to identify orthogroups. The following analysis was based on the Orthogroups.tsv file. evaluate_conservation.py can be used to check if certain candidate genes show stronger conservation than all other genes.
